@@ -1,0 +1,29 @@
+.nav-tabs{
+    border-color: #D81125 !important;
+}
+
+.active{
+    background-color: #D81125 !important;
+    border-top-color: #D81125 !important;
+    border-left-color: #D81125 !important;
+    border-right-color: #D81125 !important;
+    border-bottom: #D81125 !important;
+    color: #ffffff !important;
+}
+
+.active:hover{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    background-color: #ffc7cd !important;
+    border-top-color: #ffc7cd !important;
+    border-left-color: #ffc7cd !important;
+    border-right-color: #ffc7cd !important;
+    border-bottom: #D81125 !important;
+    color: black;
+}
