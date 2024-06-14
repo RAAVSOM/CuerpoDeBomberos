@@ -18,3 +18,41 @@
 .nav-link:hover{
     background-color: #ffced3;
 }
+
+.btn-danger{
+    border: 2px solid white;
+    color: #ffffff !important;
+    background-color: #D81125 !important;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.btn-danger:hover{
+    border: 2px solid white;
+    background-color: #db2537 !important;
+}
+
+.custom-popover{
+    height: 10% !important;
+    width: auto !important;
+    background-color: #db2537 !important;
+    border: 2px solid #ffffff !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.custom-popoverA{
+    height: 10% !important;
+    width: auto !important;
+    background-color: #db2537 !important;
+    border: 2px solid #ffffff !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.popover-arrow{
+    border-color: white;
+}
+
+.popover-body{
+    color: #ffffff !important;
+}
