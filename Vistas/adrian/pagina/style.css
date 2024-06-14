@@ -126,3 +126,8 @@ body{
 .btn-dark:hover{
   background-color: rgb(37, 37, 37) !important;
 }
+
+.input-groupmb-3{
+  height: 25%;
+  width: 25%;
+}
