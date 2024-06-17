@@ -134,13 +134,8 @@ input:not(:placeholder-shown)~.reset {
     background-color: #F2F2F2 !important;
 }
 
-.nav-link.active{
-    border-bottom: #D81125;
-}
-
 .nav-link:hover{
     border-color: #ffffff !important;
-    border-bottom-color: #D81125 !important;
 }
 
 
