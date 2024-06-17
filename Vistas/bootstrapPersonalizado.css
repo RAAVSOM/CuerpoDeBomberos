@@ -129,13 +129,8 @@ input:not(:placeholder-shown)~.reset {
     background-color: #F2F2F2 !important;
 }
 
-.nav-link.active{
-    border-bottom: #D81125;
-}
-
 .nav-link:hover{
     border-color: #ffffff !important;
-    border-bottom-color: #D81125 !important;
 }
 
 
@@ -203,3 +198,56 @@ input:not(:placeholder-shown)~.reset {
 .popover-body {
     color: #ffffff !important;
 }
+
+
+.facebook {
+    border: 2px solid white;
+    color: #330fd4 !important;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.facebook:hover {
+    background-color: #330fd4;
+    color: #ffffff !important;
+}
+.facebook.active {
+    color: #ffffff !important;
+    background-color: #330fd4 !important;
+}
+
+
+
+
+.instagram {
+    border: 2px solid white;
+    color: #a115c4 !important;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.instagram:hover {
+    background-color: #a115c4;
+    color: #ffffff !important;
+}
+
+
+.instagram.active {
+    color: #ffffff !important;
+    background-color: #a115c4 !important;
+}
+
+
+.twiter {
+    border: 2px solid white;
+    color: skyblue !important;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.twiter:hover {
+    background-color: skyblue;
+    color: #ffffff !important;
+}
+.twiter.active {
+    color: #ffffff !important;
+    background-color: skyblue !important;
+}
+
