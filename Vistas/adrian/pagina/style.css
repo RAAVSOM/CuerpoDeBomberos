@@ -106,28 +106,3 @@ body{
     width: 17px;
     margin-top: 3px;
   }
-
-/*boton de busqueda*/
-.form-control{
-
-  border-radius: 20px;
-
-}
-
-.btn{
-  z-index: 1000 !important;
-}
-
-
-.btn-dark{
-  background-color: black !important;
-}
-
-.btn-dark:hover{
-  background-color: rgb(37, 37, 37) !important;
-}
-
-.input-groupmb-3{
-  height: 25%;
-  width: 25%;
-}
