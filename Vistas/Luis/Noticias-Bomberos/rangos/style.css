@@ -1,0 +1,179 @@
+/*Primer Componente*/
+
+.head-gov{
+    background-color: #3366CC;
+}
+
+.imgGov {
+    object-fit: fill;
+}
+
+.h-max{
+    height: auto;
+    max-height: 100%;
+}
+
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.cont-header {
+
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+}
+
+.form {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+}
+
+.input {
+    justify-content: center;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+}
+
+.form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+input:focus {
+    outline: none;
+}
+
+.form:focus-within:before {
+    transform: scale(1);
+}
+
+.reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+input:not(:placeholder-shown)~.reset {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form svg {
+    width: 17px;
+    margin-top: 3px;
+}
+
+/*boton de busqueda*/
+.form-control {
+
+    border-radius: 20px;
+
+}
+
+.btn {
+    z-index: 1000 !important;
+}
+
+
+.btn-dark {
+    background-color: black !important;
+}
+
+.btn-dark:hover {
+    background-color: rgb(37, 37, 37) !important;
+}
+
+.nav-tabs{
+    border-bottom: solid #D81125 !important;
+}
+
+.nav{
+    background-color: #F2F2F2 !important;
+}
+
+.nav-link:hover{
+    border-color: #ffffff !important;
+}
+
+
+
+
+
+/*Tercer Componente*/
+.nav-link {
+    color: #D81125 !important;
+}
+
+.bg-rojo {
+    background-color: #D81125 !important;
+}
+
+.border {
+    border-radius: 20px;
+    border: 2px solid #D81125 !important;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+    background-color: #D81125 !important;
+}
+
+.nav-link:hover {
+    background-color: #D81125;
+    color: #ffffff !important;
+}
+
+.btn-danger {
+    border: 2px solid white;
+    color: #ffffff !important;
+    background-color: #D81125 !important;
+    transition: opacity 0.5s, transform 0.3s;
+}
+
+.btn-danger:hover {
+    border: 2px solid white;
+    background-color: #db2537 !important;
+}
