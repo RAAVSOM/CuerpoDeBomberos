@@ -4,16 +4,16 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 
 document.addEventListener("DOMContentLoaded", function() {
     var backToTopBtn = document.getElementById("backToTopBtn");
-
+    scrollFunction();
     window.onscroll = function() {
       scrollFunction();
     };
 
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backToTopBtn.classList.add("visible");
-      } else {
         backToTopBtn.classList.remove("visible");
+      } else {
+        backToTopBtn.classList.add("visible");
       }
     }
 
