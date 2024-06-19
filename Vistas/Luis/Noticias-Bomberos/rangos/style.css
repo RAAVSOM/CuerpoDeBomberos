@@ -166,12 +166,16 @@ input:not(:placeholder-shown)~.reset {
     color: #ffffff !important;
 }
 
+.bd-placeholder-img{
+    border: 2px solid #D81125;
+}
+
 .fw-normal{
     color: #D81125;
 }
 
 .btn-danger {
-    color: black !important;
+    color: #D81125 !important;
     background-color: #F2F2F2 !important;
     transition: opacity 0.5s, transform 0.3s;
     font-size: medium;
