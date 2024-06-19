@@ -166,27 +166,23 @@ input:not(:placeholder-shown)~.reset {
     color: #ffffff !important;
 }
 
-.bd-placeholder-img{
-    border: 2px solid #D81125;
-}
-
-.fw-normal{
-    color: #D81125;
-}
-
 .btn-danger {
-    color: #D81125 !important;
-    background-color: #F2F2F2 !important;
+    border: 2px solid white;
+    color: #ffffff !important;
+    background-color: #D81125 !important;
     transition: opacity 0.5s, transform 0.3s;
-    font-size: medium;
 }
 
 .btn-danger:hover {
-    color:#ffffff !important;
-    border: 2px solid #F2F2F2;
+    border: 2px solid white;
     background-color: #db2537 !important;
 }
 
+.fw-normal{
+    color: #D81125 !important;
+    transition: opacity 0.5s, transform 0.3s;
+
+}
     
 
 
