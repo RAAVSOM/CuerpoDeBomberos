@@ -282,6 +282,10 @@ input:not(:placeholder-shown)~.reset {
     animation: AnimationName 3s ease infinite;
 }
 
+.bg-white{
+    background-color: #ffffff !important;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:99% 0%}
     50%{background-position:2% 100%}
