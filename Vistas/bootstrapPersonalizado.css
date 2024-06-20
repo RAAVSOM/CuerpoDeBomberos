@@ -1,3 +1,9 @@
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
 /*Primer Componente*/
 
 .head-gov{
@@ -228,6 +234,9 @@ input:not(:placeholder-shown)~.reset {
     background-color: #330fd4 !important;
 }
 
+.fs-1{
+    font-size: 3rem !important;
+}
 
 
 
