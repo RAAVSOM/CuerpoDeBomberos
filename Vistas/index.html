@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="bomberos.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="bootstrapPersonalizado.css">
-    <title>Bomberos Cartagena</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Pagina Principal</title>
 </head>
 
 <body>
@@ -25,26 +29,17 @@
 
                 <div class="container-fluid row gx-0 justify-content-between align-items-center mt-4 mb-3" style="height: 20%;">
                     <div class="col row gx-0 justify-content-center h-100">
-                        <div class="col h-100 gx-0 p-0 m-0 row gx-0 justify-content-end align-self-center">
-                            <div class="h-100" style="width: 50%;">
+                        <div class="col h-100 gx-0 p-0 m-0 row gx-0 justify-content-center align-self-center">
+                            <div class="h-50" style="width: 25%;">
                                 <img class="h-100 w-100 object-fit-fill" src="bomberos.jpg" alt="">
                             </div>
                         </div>
-                        <div class="col w-auto align-content-center text-center">
-                            <P class="p1 w-auto">Cuerpo de Bomberos</P>
-                            <p class="p2 w-auto">de</p>
-                            <p class="p3 w-auto">Cartagena de Indias</p>
-                        </div>
                     </div>
                     <div class="col input-group mb-3 w-auto align-items-center m-0 h-100">
-                        <input type="text" class="form-control rounded-5 position-relative overflow-hidden"
-                            placeholder="Buscar..." aria-label="Bucar..." aria-describedby="button-addon2">
-                        <button type="button"
-                            class="position-absolute end-0 me-1 p-0 btn btn btn-dark rounded-5 h-75 row gx-0 justify-content-center align-items-center"
-                            style="width: 10%;">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                        </input>
+                        <div class="col w-auto align-content-center text-center">
+                            <h1 class="fs-1 w-auto fw-bold">Cuerpo de Bomberos</h1>
+                            <h2 class="fs-2 w-auto">Cartagena de Indias</h2>
+                        </div>
                     </div>
 
                     <div class="col h-100 row gx-0 justify-content-center image-container">
@@ -66,9 +61,9 @@
                                     data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Nuestra
                                     Institucion</a>
                                 <ul class="dropdown-menu rounded-0">
-                                    <li><a class="dropdown-item" href="quienes somos/index.html"">Quienes somos</a></li>
+                                    <li><a class="dropdown-item" href="quienes somos/index.html">Quienes somos</a></li>
                                     <li><a class="dropdown-item" href="Sedes y Localizaciones/SedesyLocalizaciones.html">Sedes y Localizaciones</a></li>
-                                    <li><a class="dropdown-item" href="#">Personal</a></li>
+                                    <li><a class="dropdown-item" href="Luis/Noticias-Bomberos/rangos/index.html">Personal</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -77,7 +72,7 @@
                                     Servicios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link rounded-0 align-content-center p-4" href="#">Rangos</a>
+                                <a class="nav-link rounded-0 align-content-center p-4" href="Luis/Noticias-Bomberos/rangos/index.html">Rangos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link rounded-0 align-content-center p-4" href="#">Bomberitos</a>
@@ -88,7 +83,7 @@
             </div>
 
             <div class="w-auto pb-4 h-75">
-                <div id="carouselExampleIndicators" class="carousel slide h-75 w-100 pb-3" data-bs-ride="true">
+                <div id="carouselExampleIndicators" class="carousel slide h-75 w-100 pb-3" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -202,7 +197,7 @@
 
 
                     <div class="card shadow-sm">
-                        <img src="Luis/Noticias-Bomberos/Captura4.png" class="card-img-top" alt="">
+                        <img src="Luis/Noticias-Bomberos/Captura4.png" style="size: 50px;" class="card-img-top" alt="">
                         <div class="card-body">
                             <p class="card-text">Memoriza las líneas de emergencia, ellas pueden ser de gran ayuda
                                 en el momento de una emergencia.</p>
@@ -257,6 +252,7 @@
                             data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
                             aria-selected="false"><i class="fa-brands fa-youtube"></i></button>
                     </div>
+
                     <div class="tab-content bg-red h-auto rounded-5 border row gx-0 justify-content-center align-content-center w-100"
                         id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
@@ -266,11 +262,9 @@
                             <div class="elfsight-app-e9c8b321-7202-41a1-a80c-d95250724bbd" data-elfsight-app-lazy></div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab" tabindex="0"><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                            <div class="elfsight-app-35b88963-c7c7-4d83-ab7a-9f037f8728ad" data-elfsight-app-lazy></div></div>
+                            aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
                         <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
-                            aria-labelledby="v-pills-disabled-tab" tabindex="0"><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                            <div class="elfsight-app-ef36960d-7af1-4b83-a279-f994983c2c34" data-elfsight-app-lazy></div></div>
+                            aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
                         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                             aria-labelledby="v-pills-messages-tab" tabindex="0">
                             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
@@ -287,11 +281,11 @@
                         <div class="h-100 bg-primary" style="width: 15%;">
                             <img src="bomberos.jpg" class="h-100 w-100">
                         </div>
-                        <p class="fs-5 w-auto">Cuerpo de Bomberos de Cartagena de Indias</p>
+                        <p class="fs-5 w-auto">Cuerpo de Bomberos de Cartagena de Indias</p>           
                     </div>
                     <div></div>
                 </div>
-                <div class="bg-red row gx-0 justify-content-center align-items-center" style="height: 90%;"></div>
+                <div class="bg-rojo row gx-0 justify-content-center align-items-center" style="height: 90%;"></div>
             </div>
         </div>
 

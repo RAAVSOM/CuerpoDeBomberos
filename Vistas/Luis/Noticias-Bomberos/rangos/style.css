@@ -166,14 +166,26 @@ input:not(:placeholder-shown)~.reset {
     color: #ffffff !important;
 }
 
+.fw-normal{
+    color: #01204E;
+}
+
 .btn-danger {
-    border: 2px solid white;
-    color: #ffffff !important;
-    background-color: #D81125 !important;
+    color: #01204E !important;
+    background-color: #F2F2F2 !important;
     transition: opacity 0.5s, transform 0.3s;
+    font-size: medium;
+    border: none;
 }
 
 .btn-danger:hover {
-    border: 2px solid white;
-    background-color: #db2537 !important;
+    color:#ffffff !important;
+    border: 2px solid #F2F2F2;
+    background-color: #01204E !important;
 }
+
+    
+
+
+
+
