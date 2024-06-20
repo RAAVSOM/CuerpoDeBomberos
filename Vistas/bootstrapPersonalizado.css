@@ -274,7 +274,6 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .bg-red{
-    color: #ffffff;
     background: linear-gradient(141deg, #2605e0, #c50303, #4804e6);
     background-size: 600% 600%;
 

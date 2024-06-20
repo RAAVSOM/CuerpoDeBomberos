@@ -7,7 +7,9 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="/Vistas/bootstrapPersonalizado.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Quienes Somos?</title>
@@ -26,31 +28,22 @@
 
             <div class="container-fluid row gx-0 justify-content-between align-items-center mt-4 mb-3" style="height: 20%;">
                 <div class="col row gx-0 justify-content-center h-100">
-                    <div class="col h-100 gx-0 p-0 m-0 row gx-0 justify-content-end align-self-center">
-                        <div class="h-100" style="width: 50%;">
+                    <div class="col h-100 gx-0 p-0 m-0 row gx-0 justify-content-center align-self-center">
+                        <div class="h-50" style="width: 25%;">
                             <img class="h-100 w-100 object-fit-fill" src="/Vistas/bomberos.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col w-auto align-content-center text-center">
-                        <P class="p1 w-auto" style="font-family: Arial, Helvetica, sans-serif; color: #000;">Cuerpo de Bomberos</P>
-                        <p class="p2 w-auto" style="font-family: Arial, Helvetica, sans-serif ;color: #000;">de</p>
-                        <p class="p3 w-auto " style="font-family: Arial, Helvetica, sans-serif; color: #000;">Cartagena de Indias</p>
-                    </div>
                 </div>
                 <div class="col input-group mb-3 w-auto align-items-center m-0 h-100">
-                    <input type="text" class="form-control rounded-5 position-relative overflow-hidden"
-                        placeholder="Buscar..." aria-label="Bucar..." aria-describedby="button-addon2">
-                    <button type="button"
-                        class="position-absolute end-0 me-1 p-0 btn btn btn-dark rounded-5 h-75 row gx-0 justify-content-center align-items-center"
-                        style="width: 10%;">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                    </input>
+                    <div class="col w-auto align-content-center text-center">
+                        <h1 class="fs-1 w-auto fw-bold">Cuerpo de Bomberos</h1>
+                        <h2 class="fs-2 w-auto">Cartagena de Indias</h2>
+                    </div>
                 </div>
 
-                <div class="col h-100 row gx-0 justify-content-center">
+                <div class="col h-100 row gx-0 justify-content-center image-container">
                     <div class="h-100" style="width: 35%;">
-                        <img src="/Vistas/alcaldialog.png" class="h-100 w-100 object-fit-fill">
+                        <img src="/Vistas/alcaldialog.png" class="h-100 w-100 object-fit-fill img-fluid no-border">
                     </div>
                 </div>
             </div>
@@ -60,16 +53,16 @@
                     <ul class="nav nav-tabs justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link rounded-0 align-content-center p-4" aria-current="page"
-                                href="">Inicio</a>
+                                href="/Vistas/index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link rounded-0 dropdown-toggle align-content-center p-4"
                                 data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Nuestra
                                 Institucion</a>
                             <ul class="dropdown-menu rounded-0">
-                                <li><a class="dropdown-item" href="#">¿Quienes Somos?</a></li>
-                                <li><a class="dropdown-item" href="#">Sedes y Localizaciones</a></li>
-                                <li><a class="dropdown-item" href="#">Personal</a></li>
+                                <li><a class="dropdown-item" href="/Vistas/quienes somos/index.html">Quienes somos</a></li>
+                                <li><a class="dropdown-item" href="/Vistas/Sedes y Localizaciones/SedesyLocalizaciones.html">Sedes y Localizaciones</a></li>
+                                <li><a class="dropdown-item" href="/Vistas/Luis/Noticias-Bomberos/rangos/index.html">Personal</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -78,7 +71,7 @@
                                 Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link rounded-0 align-content-center p-4" href="#">Rangos</a>
+                            <a class="nav-link rounded-0 align-content-center p-4" href="/Vistas/Luis/Noticias-Bomberos/rangos/index.html">Rangos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link rounded-0 align-content-center p-4" href="#">Bomberitos</a>
