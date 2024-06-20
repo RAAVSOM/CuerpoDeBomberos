@@ -1,3 +1,9 @@
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
 /*Primer Componente*/
 
 .head-gov{
@@ -138,6 +144,10 @@ input:not(:placeholder-shown)~.reset {
     border-color: #ffffff !important;
 }
 
+.visible{
+    display: none;
+}
+
 
 
 
@@ -185,6 +195,8 @@ input:not(:placeholder-shown)~.reset {
     border: 2px solid #ffffff !important;
     font-size: 17px;
     font-weight: 600;
+    justify-content: center;
+    align-content: center;
 }
 
 .custom-popoverA {
@@ -194,6 +206,8 @@ input:not(:placeholder-shown)~.reset {
     border: 2px solid #ffffff !important;
     font-size: 17px;
     font-weight: 600;
+    justify-content: center;
+    align-content: center;
 }
 
 .popover-arrow {
@@ -220,6 +234,9 @@ input:not(:placeholder-shown)~.reset {
     background-color: #330fd4 !important;
 }
 
+.fs-1{
+    font-size: 3rem !important;
+}
 
 
 
@@ -257,13 +274,16 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .bg-red{
-    color: #ffffff;
     background: linear-gradient(141deg, #2605e0, #c50303, #4804e6);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 3s ease infinite;
     -moz-animation: AnimationName 3s ease infinite;
     animation: AnimationName 3s ease infinite;
+}
+
+.bg-white{
+    background-color: #ffffff !important;
 }
 
 @-webkit-keyframes AnimationName {
