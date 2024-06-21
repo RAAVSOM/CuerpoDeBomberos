@@ -178,6 +178,12 @@ input:not(:placeholder-shown) ~ .reset {
   background-color: #db2537 !important;
 }
 
+.custom-line {
+  border-top: 2px solid black;
+  width: 50%; /* Puedes ajustar el ancho de la línea según tus necesidades */
+  justify-content: center;
+  align-items: center;
+}
 .custom-popover {
   height: 10% !important;
   width: auto !important;
