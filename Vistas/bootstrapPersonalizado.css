@@ -148,6 +148,10 @@ input:not(:placeholder-shown)~.reset {
     display: none;
 }
 
+.fixed-bottom{
+    left: auto !important;
+}
+
 
 
 
