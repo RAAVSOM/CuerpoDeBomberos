@@ -290,6 +290,7 @@ input:not(:placeholder-shown)~.reset {
     background-color: #ffffff !important;
 }
 
+
 @-webkit-keyframes AnimationName {
     0%{background-position:99% 0%}
     50%{background-position:2% 100%}
