@@ -306,3 +306,7 @@ input:not(:placeholder-shown)~.reset {
     50%{background-position:2% 100%}
     100%{background-position:99% 0%}
 }
+
+.flex-grow-0{
+    flex-grow: 0.2 !important;
+}
