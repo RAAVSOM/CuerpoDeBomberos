@@ -21,3 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
   });
+
+//galeria
+  const container = document.querySelector('#bootstrap-image-gallery');
+window.lightGallery(container, {
+    selector: '.lg-item',
+    plugins: [
+        lgZoom,
+        lgThumbnail
+    ],
+});
