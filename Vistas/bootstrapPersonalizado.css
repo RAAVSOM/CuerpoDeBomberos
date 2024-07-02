@@ -4,6 +4,10 @@ body{
   font-size: 20px;
 }
 
+.footer{
+    font-size: 15px;
+}
+
 /*Primer Componente*/
 
 .head-gov{
@@ -278,8 +282,8 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .bg-red{
-    background: linear-gradient(141deg, #2605e0, #c50303, #4804e6);
-    background-size: 600% 600%;
+    background: linear-gradient(141deg, #1a068a, #c50303, #4804e6);
+    background-size: 200% 200%;
 
     -webkit-animation: AnimationName 3s ease infinite;
     -moz-animation: AnimationName 3s ease infinite;
@@ -309,4 +313,14 @@ input:not(:placeholder-shown)~.reset {
 
 .flex-grow-0{
     flex-grow: 0.2 !important;
+}
+
+/* Mostrar el menú desplegable al pasar el ratón por encima */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Asegurarse de que el menú desplegable se posicione correctamente */
+.nav-item.dropdown .dropdown-menu {
+    margin-top: 0; /* Asegúrate de que el menú no tenga margen superior */
 }
