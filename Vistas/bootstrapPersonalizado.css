@@ -1,16 +1,15 @@
-
-body{
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
 }
 
-.footer{
+.footer {
     font-size: 15px;
 }
 
 /*Primer Componente*/
 
-.head-gov{
+.head-gov {
     background-color: #3366CC;
 }
 
@@ -18,7 +17,7 @@ body{
     object-fit: fill;
 }
 
-.h-max{
+.h-max {
     height: auto;
     max-height: 100%;
 }
@@ -27,6 +26,34 @@ body{
 .container {
     position: relative;
     display: inline-block;
+}
+
+.title {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 70px !important;
+}
+
+.subtitle{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px !important;
+}
+
+
+
+.number {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.number:hover {
+    color: rgb(32, 32, 32) !important;
 }
 
 .cont-header {
@@ -136,23 +163,23 @@ input:not(:placeholder-shown)~.reset {
     background-color: rgb(37, 37, 37) !important;
 }
 
-.nav-tabs{
+.nav-tabs {
     border-bottom: solid #D81125 !important;
 }
 
-.nav{
+.nav {
     background-color: #F2F2F2 !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     border-color: #ffffff !important;
 }
 
-.visible{
+.visible {
     display: none;
 }
 
-.fixed-bottom{
+.fixed-bottom {
     left: auto !important;
 }
 
@@ -237,12 +264,13 @@ input:not(:placeholder-shown)~.reset {
     background-color: #330fd4;
     color: #ffffff !important;
 }
+
 .facebook.active {
     color: #ffffff !important;
     background-color: #330fd4 !important;
 }
 
-.fs-1{
+.fs-1 {
     font-size: 3rem !important;
 }
 
@@ -276,13 +304,15 @@ input:not(:placeholder-shown)~.reset {
     background-color: skyblue;
     color: #ffffff !important;
 }
+
 .twiter.active {
     color: #ffffff !important;
     background-color: skyblue !important;
 }
 
-.bg-red{
-    background: linear-gradient(141deg, #1a068a, #c50303, #4804e6);
+/*background: linear-gradient(141deg, #1a068a, #c50303, #4804e6);*/
+.bg-red {
+    background: linear-gradient(141deg, #00a10d, #ccbb1d, #c92121);
     background-size: 200% 200%;
 
     -webkit-animation: AnimationName 3s ease infinite;
@@ -290,28 +320,54 @@ input:not(:placeholder-shown)~.reset {
     animation: AnimationName 3s ease infinite;
 }
 
-.bg-white{
+.bg-white {
     background-color: #ffffff !important;
 }
 
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
 }
 
-.flex-grow-0{
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
+}
+
+.flex-grow-0 {
     flex-grow: 0.2 !important;
 }
 
@@ -322,5 +378,6 @@ input:not(:placeholder-shown)~.reset {
 
 /* Asegurarse de que el menú desplegable se posicione correctamente */
 .nav-item.dropdown .dropdown-menu {
-    margin-top: 0; /* Asegúrate de que el menú no tenga margen superior */
+    margin-top: 0;
+    /* Asegúrate de que el menú no tenga margen superior */
 }
