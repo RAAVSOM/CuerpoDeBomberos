@@ -283,6 +283,15 @@ input:not(:placeholder-shown)~.reset {
     color: red;
 }
 
+.shadow-r{
+    border:  2px solid #FaFAFA10;
+    background-color: #FaFAFA10;
+    backdrop-filter: blur(0.4rem);
+}
+
+.flex-basis-auto{
+    flex-basis: 100% !important;
+}
 
 .instagram {
     border: 2px solid white;
