@@ -324,6 +324,10 @@ input:not(:placeholder-shown)~.reset {
     background-color: #ffffff !important;
 }
 
+p{
+    text-align: justify;
+  }
+
 
 @-webkit-keyframes AnimationName {
     0% {
