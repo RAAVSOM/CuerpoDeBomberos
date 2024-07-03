@@ -274,6 +274,14 @@ input:not(:placeholder-shown)~.reset {
     font-size: 3rem !important;
 }
 
+.bg-light-1{
+    border-radius: 50% !important;
+    background-color: #f2f2f200 !important;
+}
+
+.vr{
+    color: red;
+}
 
 
 .instagram {
