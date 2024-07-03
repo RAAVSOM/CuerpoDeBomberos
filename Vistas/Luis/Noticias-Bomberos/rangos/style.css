@@ -169,11 +169,13 @@ input:not(:placeholder-shown)~.reset {
 .fw-normal{
     color: #01204E;
 }
-.p-c{   
-    text-align: center;
+.p-c{
     line-break:normal;
+    text-align: justify;
+      
 
 }
+
 
 .btn-danger {
     color: #01204E !important;
