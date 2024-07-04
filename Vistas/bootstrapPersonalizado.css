@@ -283,6 +283,14 @@ input:not(:placeholder-shown)~.reset {
     color: red;
 }
 
+.bg-img{
+    background-image: url(Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 50%;
+}
+
 .shadow-r{
     border:  2px solid #FaFAFA10;
     background-color: #FaFAFA10;
