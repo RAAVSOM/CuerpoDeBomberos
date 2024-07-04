@@ -27,6 +27,10 @@ body {
     position: relative;
     display: inline-block;
 }
+.container-fluid{
+    margin-top: 0%;
+
+}
 
 .title {
     font-family: "Anton SC", sans-serif;
