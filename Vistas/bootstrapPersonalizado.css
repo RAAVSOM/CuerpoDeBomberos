@@ -35,7 +35,7 @@ body {
     font-size: 70px !important;
 }
 
-.subtitle{
+.subtitle {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -274,17 +274,17 @@ input:not(:placeholder-shown)~.reset {
     font-size: 3rem !important;
 }
 
-.bg-light-1{
+.bg-light-1 {
     border-radius: 50% !important;
     background-color: #f2f2f200 !important;
 }
 
-.vr{
+.vr {
     color: red;
 }
 
-@media (min-device-width: 1150px){
-    .bg-img{
+@media (min-device-width: 1150px) {
+    .bg-img {
         background-image: url(bombe1.jpeg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -293,8 +293,9 @@ input:not(:placeholder-shown)~.reset {
         height: 65vh;
     }
 }
-@media (min-device-width: 650px) and (max-device-width: 1150px){
-    .bg-img{
+
+@media (min-device-width: 650px) and (max-device-width: 1150px) {
+    .bg-img {
         background-image: url(bombe1.jpeg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -303,8 +304,9 @@ input:not(:placeholder-shown)~.reset {
         height: 80vh;
     }
 }
-@media (min-device-width: 450px) and (max-device-width: 650px){
-    .bg-img{
+
+@media (min-device-width: 450px) and (max-device-width: 650px) {
+    .bg-img {
         background-image: url(bombe1.jpeg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -313,8 +315,9 @@ input:not(:placeholder-shown)~.reset {
         height: 65vh;
     }
 }
-@media (min-device-width: 0px) and (max-device-width: 450px){
-    .bg-img{
+
+@media (min-device-width: 0px) and (max-device-width: 450px) {
+    .bg-img {
         background-image: url(bombe1.jpeg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -324,13 +327,13 @@ input:not(:placeholder-shown)~.reset {
     }
 }
 
-.shadow-r{
-    border:  2px solid #FaFAFA10;
+.shadow-r {
+    border: 2px solid #FaFAFA10;
     background-color: #FaFAFA10;
     backdrop-filter: blur(0.4rem);
 }
 
-.flex-basis-auto{
+.flex-basis-auto {
     flex-basis: 100% !important;
 }
 
@@ -382,13 +385,13 @@ input:not(:placeholder-shown)~.reset {
     background-color: #ffffff !important;
 }
 
-.text-personalizado{
+.text-personalizado {
     color: #000000 !important;
 }
 
-p{
+p {
     text-align: justify;
-  }
+}
 
 
 @-webkit-keyframes AnimationName {
@@ -446,4 +449,102 @@ p{
 .nav-item.dropdown .dropdown-menu {
     margin-top: 0;
     /* Asegúrate de que el menú no tenga margen superior */
+}
+
+
+.close {
+    font-size: 1.5rem;
+}
+
+.col-lg-3-p{
+    width: 25%;
+}
+.col-lg-3-m{
+    width: 30%;
+}
+.col-lg-3-g{
+    width: 35%;
+}
+
+.col-lg-3 .img-fluid-p{
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 120%;
+}
+.col-lg-3 .img-fluid-m{
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 120%;
+}
+.col-lg-3 .img-fluid-g{
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 110%;
+}
+
+.col-12 img:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.img-fluid-p:hover{
+    max-width: none !important;
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+}
+.img-fluid-g:hover{
+    max-width: none !important;
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+}
+.img-fluid-m:hover{
+    max-width: none !important;
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+}
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 }
