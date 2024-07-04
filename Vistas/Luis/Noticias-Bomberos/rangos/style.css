@@ -115,6 +115,7 @@ input:not(:placeholder-shown)~.reset {
 
 .btn {
     z-index: 1000 !important;
+    
 }
 
 
@@ -167,7 +168,7 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .fw-normal{
-    color: #01204E;
+    color: #D81125;
 }
 .p-c{
     line-break:normal;
@@ -178,7 +179,7 @@ input:not(:placeholder-shown)~.reset {
 
 
 .btn-danger {
-    color: #01204E !important;
+    color: #D81125 !important;
     background-color: #F2F2F2 !important;
     transition: opacity 0.5s, transform 0.3s;
     font-size: large;
@@ -188,7 +189,7 @@ input:not(:placeholder-shown)~.reset {
 .btn-danger:hover {
     color:#ffffff !important;
     border: 2px solid #F2F2F2;
-    background-color: #01204E !important;
+    background-color: #D81125 !important;
 }
 
     
