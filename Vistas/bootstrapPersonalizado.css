@@ -23,9 +23,15 @@ body {
 }
 
 
+
+
 .container {
     position: relative;
     display: inline-block;
+}
+.container-fluid{
+    margin-top: 0%;
+
 }
 
 .title {
