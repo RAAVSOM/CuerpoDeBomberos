@@ -473,6 +473,13 @@ p {
   width: 110%;
 }
 
+.col-lg-3 .img-fluid-ver {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
 .col-12 img:hover {
   opacity: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -495,6 +502,14 @@ p {
   top: 50% !important;
 }
 .img-fluid-m:hover {
+  max-width: none !important;
+  position: absolute;
+  z-index: 4;
+  transform: translate(-50%, -50%) !important;
+  left: 50% !important;
+  top: 50% !important;
+}
+.img-fluid-ver:hover {
   max-width: none !important;
   position: absolute;
   z-index: 4;
