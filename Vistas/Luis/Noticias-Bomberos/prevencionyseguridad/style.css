@@ -1,0 +1,23 @@
+:root {
+  --bs-primary: #d32f2f;
+  --bs-secondary: #ffa000;
+}
+body {
+  padding-top: 56px;
+}
+.navbar {
+  background-color: var(--bs-primary);
+}
+.hero {
+  background-image: url("/Vistas/Fondo2.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
