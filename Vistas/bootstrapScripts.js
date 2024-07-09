@@ -37,4 +37,3 @@ function AbrirChat(){
   const chat = document.getElementById("btns").style.display = "none";
   const bot = document.getElementById("chat").style.display = "block";
 }
-
