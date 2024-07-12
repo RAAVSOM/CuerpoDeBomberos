@@ -174,9 +174,14 @@ input:not(:placeholder-shown)~.reset {
     line-break:normal;
     text-align: justify;
       
+      
 
 }
-
+.pc{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
 
 .btn-danger {
     color: #D81125 !important;
