@@ -388,7 +388,7 @@ input:not(:placeholder-shown) ~ .reset {
 
 /*background: linear-gradient(141deg, #1a068a, #c50303, #4804e6);*/
 .bg-red {
-  background: linear-gradient(141deg, #3366cc, #719795, #1F1272);
+  background: linear-gradient(141deg, #3366cc, #1679AB, #1F1272);
   background-size: 200% 200%;
 
   -webkit-animation: AnimationName 3s ease infinite;
