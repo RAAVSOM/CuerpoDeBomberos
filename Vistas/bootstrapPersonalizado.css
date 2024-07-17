@@ -388,7 +388,7 @@ input:not(:placeholder-shown) ~ .reset {
 
 /*background: linear-gradient(141deg, #1a068a, #c50303, #4804e6);*/
 .bg-red {
-  background: linear-gradient(141deg, #00a10d, #ccbb1d, #c92121);
+  background: linear-gradient(141deg, #3366cc, #719795, #1F1272);
   background-size: 200% 200%;
 
   -webkit-animation: AnimationName 3s ease infinite;
@@ -585,59 +585,3 @@ p {
 }
 
 /* codigo del backgroung del collage*/
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-body{
-  min-height: 100vh;
- 
-}
-.container{
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-
-}
-
-.bubbles{
-  position: absolute;
-  display: flex;
-}
-
-.bubbles span{
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background: #4fc3dc;
-  margin: 0 4px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 10px #4fc3dc44,
-   0 0 50px #4fc3dc,
-   0 0 100px #4fc3dc;
-  animation: animate 15s linear infinite;
-  animation-duration: calc(125s/var(--i));
-
-}
-
-.bubbles span:nth-child(even){
-  background: #ff2d75;
-  box-shadow: 0 0 0 10px #ff2d7544,
-  0 0 50px #ff2d75,
-  0 0 100px #ff2d75;
-
-}
-
-@keyframes animate{
-  0%{
-      transform: translateY(100vh) scale(0);
-  }
-
-  100%{
-      transform: translateY(-10vh) scale(1);
-  }
-}
