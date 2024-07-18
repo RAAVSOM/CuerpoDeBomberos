@@ -1,2 +1,329 @@
-<app-encabezado/>
-<p>home works!</p>
+<div class="vh-100 p-0 m-0">
+    <div class="h-auto mb-4">
+
+        <!--Componente de Encabezado -->
+        <app-encabezado/>
+
+        <!--Carrousel -->
+        <div class="w-auto pb-4 h-75">
+            <div id="carouselExampleIndicators" class="carousel slide h-75 w-100 pb-3" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <!--botones de carrousel -->
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <!--Fin de imagenes de carrousel -->
+                </div>
+                <div class="carousel-inner h-100 w-100">
+                    <!--imagenes de carousel -->
+                    <div class="carousel-item h-100 w-100">
+                        <img src="https://www.dropbox.com/scl/fi/0vjrphowhx8vi89sjkqwl/cumplea-os.jpeg?rlkey=3cdukozq2tmu4weyulru5ofp2&st=jhkwwydm&raw=1"
+                            class="h-100 w-100 object-fit-fill">
+                    </div>
+                    <div class="carousel-item h-100 w-100">
+                        <img src="https://www.dropbox.com/scl/fi/beutmgzmcuqsd23lxwx0m/emergencia.jpeg?rlkey=q9cblxmkjfeqweljkp480qjll&st=b1nlreee&raw=1" class="d-block h-100 w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item h-100 w-100">
+                        <img src="https://www.dropbox.com/scl/fi/ki7cgrjgvnjy7egqoaqdl/Linea.jpeg?rlkey=84srqq4hif1vikp9osqms61rd&st=ofdymg4t&raw=1"
+                            class="d-block h-100 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item h-100 w-100 active">
+                        <img src="https://www.dropbox.com/scl/fi/rne74pais2aieo14s492c/Cartagena-se-Transforma.jpeg?rlkey=uyrhbfaurdnpmxkzeqbacy2zq&st=2m6v7bvk&raw=1" class="d-block h-100 w-100" alt="...">
+                    </div>
+                    <!--fin de imagenes de carrousel -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!--Fin de carrousel-->
+
+    </div>
+
+    <!--Infomacion de linea de emergencia -->
+    <div class="bg-red container-fluid bg-danger py-4 text-center mt-3">
+        <div class=" ">
+            <h2 class="text-white fw-bold mb-0">LINEAS DE ATENCION Y DATOS DE EMERGENCIAS</h2>
+            <h1 class="text-white display-1 fw-bold mb-4"><a href="tel:+119" class="number">119</a></h1>
+            <h2 class="text-white fw-bold mb-0">LLAME AQUI</h2>
+        </div>
+    </div>
+    <!--Fin de infomacion de linea de emergencia -->
+
+    <!--Seccion de noticias -->
+    <div class="h-max w-100 overflow-auto mt-3">
+        <div class="h-auto ps-3 mb-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-0 gap-4 justify-content-center">
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-07/WhatsApp%20Image%202024-07-03%20at%2011.11.31%20AM.jpeg"
+                        style="size: 50px;" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Cuerpo de Bomberos de Cartagena presenta resultados de gestión de emergencias del primer
+                            semestre de 2024</h3>
+                        <p class="card-text">Cartagena de Indias D.T. y C., 3 de julio de 2024. El director del
+                            Cuerpo de Bomberos de Cartagena, Jhony Pérez Sayas, presentó el informe de emergencias
+                            atendidas durante el mes de junio, así como los indicadores de gestión correspondientes
+                            al primer semestre del año 2024.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary" target="_blank"
+                                    href="https://www.cartagena.gov.co/noticias/cuerpo-bomberos-cartagena-presenta-resultados-gestion-emergencias-primer-semestre-2024">Ver
+                                    Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-28%20at%2012.30.42%20PM.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>300 niños y niñas de Cartagena se graduaron del programa de formación Bomberitos
+                            Comunitarios en el primer semestre de 2024</h3>
+                        <p class="card-text">El programa Bomberitos Comunitarios graduó a 300 niños y niñas de
+                            Cartagena en el primer semestre de 2024. Durante cuatro sábados, aprendieron sobre el
+                            triángulo del fuego, cómo actuar en emergencias y reforzaron valores como el respeto y
+                            la solidaridad. Los niños graduados provienen de diversos barrios de la ciudad. El
+                            programa es posible gracias a instructores, líderes comunitarios y el apoyo de empresas
+                            locales. Desde su creación, ha graduado a más de 5 mil niños.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.cartagena.gov.co/noticias/300-ninos-ninas-cartagena-graduaron-programa-formacion-bomberitos-comunitarios-el-primer-semestre-2024">Ver
+                                    Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-26%20at%207.46.53%20PM.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Cuerpo de Bomberos de Cartagena forma nuevos inspectores de seguridad humana y contra
+                            incendios</h3>
+                        <p class="card-text">Integrantes del Cuerpo de Bomberos de Cartagena se capacitaron en la
+                            actualización, unificación y estandarización de competencias conforme a la nueva NFPA
+                            1030 edición 2024. Durante 10 días, fortalecieron conocimientos en las competencias de
+                            Inspector de Bomberos, bajo estándares nacionales e internacionales. El director, Jhony
+                            Pérez Sayas, anunció su participación en un programa intensivo de Formación Integral
+                            para la Actualización, Unificación y Estandarización de Competencias según la NFPA
+                            Edición 2024. La NFPA es reconocida mundialmente por establecer normas y prácticas
+                            recomendadas para la protección contra incendios. El Cuerpo de Bomberos de Cartagena
+                            sigue comprometido con la mejora y el servicio a la comunidad.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.instagram.com/p/C8KcAo0A4x0/?img_index=1">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-22%20at%2012.56.17%20PM.jpeg"
+                        style="size: 50px;" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Cuerpo de Bomberos de Cartagena atendió incendio de una tractomula</h3>
+                        <p class="card-text">El Cuerpo de Bomberos de Cartagena atendió un incendio en una
+                            tractomula cerca de la Sociedad Portuaria de Cartagena. Según el reporte, el vehículo
+                            pesado comenzó a generar fuego en el cubículo del motor. Afortunadamente, no hubo
+                            personas lesionadas. Se recomienda a los conductores portar extintores actualizados y
+                            realizar mantenimiento preventivo a motores y sistemas eléctricos. En caso de incendio,
+                            llamar a la línea de emergencia 119 del Cuerpo de Bomberos de Cartagena.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.eluniversal.com.co/cartagena/2024/06/26/cuerpo-de-bomberos-forma-nuevos-inspectores-de-seguridad-humana-y-contra-incendios/">Ver
+                                    Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-21%20at%2010.01.41%20AM.jpeg"
+                        class="card-img-top" style="height: 600px;" alt="">
+                    <div class="card-body">
+                        <h3>Cuerpo de Bomberos de Cartagena despeja desagües en la Avenida Santander para prevenir
+                            accidentes</h3>
+                        <p class="card-text">
+                            El Cuerpo de Bomberos de Cartagena, bajo la dirección de Jhony Pérez Sayas, trabaja en
+                            la prevención de riesgos de accidentes de tránsito causados por el estancamiento de agua
+                            en la Avenida Santander, en Bocagrande. Tras intensas lluvias, se identificaron
+                            taponamientos en los desagües que generaban peligrosas condiciones. En colaboración con
+                            la Cuadrilla del Alcalde, se implementaron mejoras significativas, logrando una vía más
+                            segura y reduciendo los trancones. El compromiso del Cuerpo de Bomberos con la seguridad
+                            y el bienestar de la comunidad es evidente. 🔥🚗</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.instagram.com/p/C8M3Oueg9gl/?img_index=1">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-14%20at%203.07.15%20PM.jpeg"
+                        class="card-img-top" style="height: 500px;" alt="">
+                    <div class="card-body">
+                        <h3>Cuerpo de Bomberos de Cartagena atiende incendio de una lancha en El Bosque, sector La
+                            Cuchilla</h3>
+                        <p class="card-text">
+                            Cartagena de Indias D. T. y C., 14 de junio de 2024 El Cuerpo de Bomberos de Cartagena
+                            atendió con éxito el incendio de una lancha con número de matrícula CP-05-2128-B, que
+                            según se reportó, ocurrió luego de que la motonave culminara de abastecerse de
+                            combustible, en inmediaciones de El Bosque, sector La Cuchilla.
+
+                            De acuerdo con testigos, al terminar el tanqueo y encender los motores, se produjo una
+                            pequeña explosión que originó el fuego.
+
+                            Gracias al oportuno llamado a las líneas de atención 119, se logró controlar la
+                            emergencia.
+                            En el incidente no se reportaron personas lesionadas.
+
+                            El Cuerpo de Bomberos insta a la ciudadanía a tomar las precauciones necesarias, frente
+                            al mantenimiento y revisiones periódicas de este tipo de embarcaciones, y agradeció el
+                            reporte oportuno de esta reciente emergencia causada por un incendio.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.instagram.com/p/C8M3Oueg9gl/?img_index=1">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-13%20at%204.27.16%20PM%20%281%29.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Comienza proceso de licitación para obras de nueva Estación de Bomberos de Bocagrande
+                        </h3>
+                        <p class="card-text">
+                            La Alcaldía Mayor de Cartagena oficializa el inicio del proceso de licitación para la
+                            construcción de la nueva Estación de Bomberos de Bocagrande. Esta estación, adecuada
+                            para brindar respuestas terrestres y acuáticas, se ubicará en el mismo predio donde se
+                            encuentra la actual Estación de Bomberos. El proyecto incluye mejoras técnicas y
+                            dotación en más de 2.000 metros cuadrados, con un presupuesto de $17.893.654.440. Como
+                            plazo para la ejecución del contrato, se ha estipulado hasta el 31 de diciembre de 2025.
+                            La obra es resultado de una petición reiterada del organismo bomberil de la ciudad y
+                            busca optimizar las respuestas en emergencias.” 🔥🚒</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.instagram.com/p/C8M3Oueg9gl/?img_index=1">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <img src="https://www.cartagena.gov.co/sites/default/files/2024-06/WhatsApp%20Image%202024-06-02%20at%209.28.03%20AM.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Mayo, con 114 emergencias registradas, cerró con el menor número de casos atendidos por
+                            el Cuerpo de Bomberos de Cartagena en lo que va del 2024</h3>
+                        <p class="card-text">
+                            Enero: 223 emergencias
+                            Febrero: 273 emergencias
+                            Marzo: 205 emergencias
+                            Abril: 143 emergencias
+                            Mayo: 114 emergencias
+                            El mes de mayo registró la cifra más baja hasta el momento, con 114 emergencias
+                            atendidas. El director, Jhony Pérez Sayas, destacó los esfuerzos en prevención y
+                            concienciación para reducir los casos. El Cuerpo de Bomberos agradece el apoyo de la
+                            ciudadanía y enfatiza la importancia de mantener las medidas de seguridad. 🔥🚒</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-outline-secondary"
+                                    href="https://www.instagram.com/p/C8M3Oueg9gl/?img_index=1">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Fin de seccion de noticias -->
+
+    <!--Seccion final -->
+    <div class="h-100 w-100 gx-0 mt-3">
+        <!--Redes sociales -->
+        <div class="p-4 h-auto mb-5">
+            <h2 class="fs-3 mb-3">Siguenos en nuestras redes sociales</h2>
+            <div class="d-flex align-items-start h-auto">
+                <div class="nav bg-white flex-column nav-pills me-3 w-auto gap-3" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <!--Instagram btn-->
+                    <button class="nav-link instagram active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true"><i class="fa-brands fa-instagram fa-2xl"></i></button>
+                    <!--Facebook btn-->
+                    <button class="nav-link facebook" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false"><i class="fa-brands fa-facebook-f fa-2xl"></i></button>
+                    <!--Twiter btn-->
+                    <button class="nav-link twiter" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled"
+                        aria-selected="false"><i class="fa-brands fa-twitter fa-2xl"></i></button>
+                    <!--Youtube btn-->
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false"><i class="fa-brands fa-youtube fa-2xl"></i></button>
+                </div>
+                <div class="tab-content bg-red h-auto rounded-5 border row gx-0 justify-content-center align-content-center w-100"
+                    id="v-pills-tabContent">
+                    <!--Instagram -->
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
+                            defer></script>
+                        <div class="elfsight-app-e9c8b321-7202-41a1-a80c-d95250724bbd" data-elfsight-app-lazy></div>
+                    </div>
+                    <!--Facebook -->
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
+                            defer></script>
+                        <div class="elfsight-app-d86d709f-5f95-4597-a1d0-65bc976a8e75" data-elfsight-app-lazy></div>
+                    </div>
+                    <!--Twiter -->
+                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                        aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
+                            defer></script>
+                        <div class="elfsight-app-c93a249d-ba79-46ed-acab-dcb563df4652" data-elfsight-app-lazy></div>
+                    </div>
+                    <!--Youtube -->
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab" tabindex="0">
+                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
+                            defer></script>
+                        <div class="elfsight-app-ecb593fd-2905-4dbc-a39a-3baea60f3f23" data-elfsight-app-lazy></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin de redes sociales -->
+
+        <!--Footer informacion -->
+        <app-footer/>
+        <!--Fin de Footer informacion -->
+    </div>
+</div>
