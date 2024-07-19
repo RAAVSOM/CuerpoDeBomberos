@@ -8,11 +8,11 @@
     border-left-color: #D81125 !important;
     border-right-color: #D81125 !important;
     border-bottom: #D81125 !important;
-    color: #ffffff !important;
+    color: #070707 !important;
 }
 
 .active:hover{
-    color: black;
+    color: rgb(7, 7, 7);
 }
 
 .nav-link{
@@ -27,3 +27,26 @@
     border-bottom: #D81125 !important;
     color: black;
 }
+.borde{
+    border-radius: 25px;
+}
+.card {
+    transition: transform 0.3s ease;
+    width: fit-content !important; 
+    background-color: #f8f9fa;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card:hover {
+    transform: translateY(-5px);
+    
+}
+
+.jus{
+    margin-bottom: 100px;
+    
+}
+.mto{
+    margin-top: 5.1rem !important;
+}  
+
