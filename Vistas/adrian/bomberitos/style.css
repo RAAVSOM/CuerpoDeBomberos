@@ -8,11 +8,11 @@
     border-left-color: #D81125 !important;
     border-right-color: #D81125 !important;
     border-bottom: #D81125 !important;
-    color: #ffffff !important;
+    color: #070707 !important;
 }
 
 .active:hover{
-    color: black;
+    color: rgb(7, 7, 7);
 }
 
 .nav-link{
