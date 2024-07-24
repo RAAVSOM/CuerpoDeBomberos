@@ -50,12 +50,13 @@ img {
     display: none;
 }
 #loadMoreBtn {
+    width: fit-content;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 5px 5px;
     background-color: darkgray;
     color: #ffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
 }
 #loadMoreBtn:hover {
