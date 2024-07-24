@@ -175,11 +175,19 @@
                         class="fa-brands fa-whatsapp fa-2xl"></i></button>
             </ol>
             <ol class="p-0 m-0" style="height: 21%; width: 40%;">
-                <button
-                    class="btn btn-danger h-100 w-100 rounded-5 row gx-0 justify-content-center align-content-center"
-                    type="button" data-bs-toggle="popover" data-bs-placement="right"
-                    data-bs-custom-class="custom-popover" data-bs-content="Chat Bot" data-bs-trigger="hover"><i
-                        class="fa-brands fa-rocketchat fa-xl"></i></button>
+                <script type="text/javascript">
+                    (function(d, t) {
+                        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                        v.onload = function() {
+                          window.voiceflow.chat.load({
+                            verify: { projectID: '666a628c4982158f9953cb1a' },
+                            url: 'https://general-runtime.voiceflow.com',
+                            versionID: 'production'
+                          });
+                        }
+                        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+                    })(document, 'script');
+                  </script>
             </ol>
             <ol class="p-0 m-0" style="height: 21%; width: 40%;">
                 <a href="https://sigob.cartagena.gov.co/Tramites/ciudadano/#/inicio"
