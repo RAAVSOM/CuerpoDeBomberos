@@ -43,6 +43,23 @@ img {
         width: calc(33.33% - 20px);
     }
 }
-.borde{
+.borde {
     border-radius: 25px;
+}
+.hidden {
+    display: none;
+}
+#loadMoreBtn {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 5px 5px;
+    background-color: darkgray;
+    color: #ffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#loadMoreBtn:hover {
+    background-color: #0056b3;
+    color: #ffff;
 }
