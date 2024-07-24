@@ -856,7 +856,7 @@ ul {
       scale: 10%;
   }
   to {
-      opacity: 1;
+      opacity: 0.8;
       scale: 100%;
   }
 }
@@ -867,7 +867,7 @@ ul {
       justify-content: center;
   }
   img {
-      width: calc(50% - 20px);
+      width: calc(60% - 20px);
   }
 }
 @media (min-width: 1024px) {
