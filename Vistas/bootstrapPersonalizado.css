@@ -396,8 +396,14 @@ input:not(:placeholder-shown)~.reset {
   animation: AnimationName 3s ease infinite;
 }
 
+.bg-rojo-grad {
+  background: linear-gradient(141deg, #ffffff, #0d368a, #ffffff);
+  background-size: 200% 200%;
 
-
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
 
 .bg-blue {
   background: linear-gradient(141deg, #ffffff, #719795, #000000);
@@ -940,10 +946,10 @@ ul {
 @keyframes show {
   from {
       opacity: 0;
-      scale: 10%;
+      scale: 0%;
   }
   to {
-      opacity: 0.8;
+      opacity: 1;
       scale: 100%;
   }
 }
