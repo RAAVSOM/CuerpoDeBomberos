@@ -9,6 +9,7 @@ import { TenienteComponent } from './rangos/teniente/teniente.component';
 import { SargentoComponent } from './rangos/sargento/sargento.component';
 import { CaboComponent } from './rangos/cabo/cabo.component';
 import { BomberosComponent } from './rangos/bomberos/bomberos.component';
+import { BomberitosComponent } from './bomberitos/bomberitos.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -21,5 +22,6 @@ export const routes: Routes = [
     {path: 'sargento', component: SargentoComponent},
     {path: 'cabo', component: CaboComponent},
     {path: 'bomberos', component: BomberosComponent},
+    {path: 'bomberitos', component: BomberitosComponent},
     {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];

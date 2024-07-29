@@ -1,0 +1,48 @@
+.nav-tabs{
+    border-color: #D81125 !important;
+}
+
+.active{
+    background-color: #D81125 !important;
+    color: #070707 !important;
+}
+
+.active:hover{
+    color: rgb(7, 7, 7);
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    background-color: #ffc7cd !important;
+    border-top-color: #ffc7cd !important;
+    border-left-color: #ffc7cd !important;
+    border-right-color: #ffc7cd !important;
+    border-bottom: #D81125 !important;
+    color: black;
+}
+.borde{
+    border-radius: 25px;
+}
+.card {
+    transition: transform 0.3s ease;
+    width: fit-content !important; 
+    background-color: #f8f9fa;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card:hover {
+    transform: translateY(-5px);
+    
+}
+
+.jus{
+    margin-bottom: 60px;
+    
+}
+.mto{
+    margin-top: 5.1rem !important;
+}  
+
