@@ -197,6 +197,12 @@ input:not(:placeholder-shown)~.reset {
     background-color: #D81125 !important;
 }
 
+.custom-line {
+    border-top: 1px solid grey;
+    width: 10px; /* Puedes ajustar el ancho de la línea según tus necesidades */
+    justify-content: center;
+    align-items: center;
+}
     
 
 
