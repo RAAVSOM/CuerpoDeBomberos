@@ -13,3 +13,9 @@
     border-radius: 25px;
     
 }
+.custom-line {
+    border-top: 1px solid grey;
+    width: 50%; /* Puedes ajustar el ancho de la línea según tus necesidades */
+    justify-content: center;
+    align-items: center;
+  }
