@@ -24,7 +24,6 @@
     <title>Pagina Principal</title>
 
 </head>
-
 <body>
     <div class="vh-100 p-0 m-0">
         <div class="h-auto mb-4">
@@ -50,7 +49,7 @@
                             <h1 class="w-100 fw-bold title text-personalizado">Cuerpo de Bomberos</h1>
                             <h2 class="fs-2 w-auto subtitle text-personalizado">Cartagena de Indias D. T. y C.</h2>
                         </div>
-                    </div>
+                    </div>                                                                             
 
                     <div class="col-md-3 h-100 row gx-0 justify-content-center align-content-start image-container z-2">
                         <div class="h-50 align-content-start" style="width: 35%;">
@@ -131,7 +130,7 @@
                                         <div class="vr"></div>
                                         <li class="nav-item">
                                             <a class="nav-link rounded-0 align-content-center p-4"
-                                                href="/Vistas/adrian/Prevencion yseguridad/index.html">Prevención
+                                                href="/Vistas/Luis/Noticias-Bomberos/prevencionyseguridad/index.html">Prevención
                                                 y Seguridad</a>
                                         </li>
                                     </ul>
@@ -567,18 +566,18 @@
                 <ol class="p-0 m-0 row gx-0 justify-content-center align-content-center">
                     <div>
                         <script type="text/javascript">
-                            (function (d, t) {
-                                var v = d.createElement(t), s = d.getElementById("chat");
-                                v.onload = function () {
-                                    window.voiceflow.chat.load({
-                                        verify: { projectID: '666a628c4982158f9953cb1a' },
-                                        url: 'https://general-runtime.voiceflow.com',
-                                        versionID: 'production'
-                                    });
+                            (function(d, t) {
+                                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                                v.onload = function() {
+                                  window.voiceflow.chat.load({
+                                    verify: { projectID: '666a628c4982158f9953cb1a' },
+                                    url: 'https://general-runtime.voiceflow.com',
+                                    versionID: 'production'
+                                  });
                                 }
-                                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; d.body.insertBefore(v, d.getElementById("chat"));
+                                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
                             })(document, 'script');
-                        </script>
+                          </script>
                     </div>
                     <div id="chat"></div>
                 </ol>
