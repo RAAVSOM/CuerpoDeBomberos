@@ -11,6 +11,7 @@ import { CaboComponent } from './rangos/cabo/cabo.component';
 import { BomberosComponent } from './rangos/bomberos/bomberos.component';
 import { BomberitosComponent } from './bomberitos/bomberitos.component';
 import { MapaComponent } from './mapa/mapa.component';
+import { PrevencionComponent } from './prevencion/prevencion.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -25,5 +26,6 @@ export const routes: Routes = [
     {path: 'bomberos', component: BomberosComponent},
     {path: 'bomberitos', component: BomberitosComponent},
     {path: 'mapa', component: MapaComponent},
+    {path: 'prevencion', component: PrevencionComponent},
     {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];

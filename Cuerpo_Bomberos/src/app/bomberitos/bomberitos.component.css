@@ -1,18 +1,20 @@
-.nav-tabs{
-    border-color: #D81125 !important;
-}
-
-.active{
-    background-color: #D81125 !important;
-    color: #070707 !important;
-}
-
-.active:hover{
-    color: rgb(7, 7, 7);
-}
 
 .nav-link{
     color: black;
+}
+
+.active{
+    background-color: rgb(197, 195, 193);
+}
+
+.btn-dark{
+    background-color: rgba(197, 195, 193, 0.63) !important;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+.btn-dark:hover{
+    background-color: rgb(141, 139, 137, 0.63) !important;
 }
 
 .nav-link:hover{
@@ -46,3 +48,10 @@
     margin-top: 5.1rem !important;
 }  
 
+.no-card{
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease;
+}
+.no-card:hover{
+    transform: translateY(-5px);
+}
