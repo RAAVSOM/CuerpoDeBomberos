@@ -13,6 +13,7 @@ import { BomberitosComponent } from './bomberitos/bomberitos.component';
 import { MapaComponent } from './mapa/mapa.component';
 import { PrevencionComponent } from './prevencion/prevencion.component';
 import { GaleriaBomberitosComponent } from './galeria-bomberitos/galeria-bomberitos.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -29,5 +30,6 @@ export const routes: Routes = [
     {path: 'mapa', component: MapaComponent},
     {path: 'GaleriaBomberitos', component: GaleriaBomberitosComponent},
     {path: 'prevencion', component: PrevencionComponent},
+    {path: 'galeria', component: GaleriaComponent},
     {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
