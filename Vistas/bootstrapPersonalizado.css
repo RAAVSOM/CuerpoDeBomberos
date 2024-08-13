@@ -302,7 +302,7 @@ input:not(:placeholder-shown)~.reset {
 @media (min-device-width: 1150px) {
   .bg-img {
 
-    background-image: url(bombe1.jpeg);
+    background-image: url(https://www.dropbox.com/scl/fi/avga9ue6kkshf2lh3nr31/IMG-20240813-WA0019.jpg?rlkey=facfekanruica6rrvdo86phar&st=wm9yvvwa&raw=1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -313,7 +313,7 @@ input:not(:placeholder-shown)~.reset {
 
 @media (min-device-width: 650px) and (max-device-width: 1150px) {
   .bg-img {
-    background-image: url(bombe1.jpeg);
+    background-image: url(https://www.dropbox.com/scl/fi/avga9ue6kkshf2lh3nr31/IMG-20240813-WA0019.jpg?rlkey=facfekanruica6rrvdo86phar&st=wm9yvvwa&raw=1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -324,7 +324,7 @@ input:not(:placeholder-shown)~.reset {
 
 @media (min-device-width: 450px) and (max-device-width: 650px) {
   .bg-img {
-    background-image: url(bombe1.jpeg);
+    background-image: url(https://www.dropbox.com/scl/fi/avga9ue6kkshf2lh3nr31/IMG-20240813-WA0019.jpg?rlkey=facfekanruica6rrvdo86phar&st=wm9yvvwa&raw=1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -335,7 +335,7 @@ input:not(:placeholder-shown)~.reset {
 
 @media (min-device-width: 0px) and (max-device-width: 450px) {
   .bg-img {
-    background-image: url(bombe1.jpeg);
+    background-image: url(https://www.dropbox.com/scl/fi/avga9ue6kkshf2lh3nr31/IMG-20240813-WA0019.jpg?rlkey=facfekanruica6rrvdo86phar&st=wm9yvvwa&raw=1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;

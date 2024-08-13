@@ -3,6 +3,19 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 
 
 document.addEventListener("DOMContentLoaded", function () {
+  (function (d, t) {
+    var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    v.onload = function () {
+      window.voiceflow.chat.load({
+        verify: { projectID: '666a628c4982158f9953cb1a' },
+        url: 'https://general-runtime.voiceflow.com',
+        versionID: 'production'
+      });
+    }
+    v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+
+
   var backToTopBtn = document.getElementById("backToTopBtn");
   scrollFunction();
   window.onscroll = function () {
@@ -25,11 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const loadMoreBtn = document.getElementById('loadMoreBtn');
   const hiddenImages = gallery.querySelectorAll('img.hidden');
 
-  loadMoreBtn.addEventListener('click', function() {
-      hiddenImages.forEach(img => {
-          img.classList.remove('hidden');
-      });
-      loadMoreBtn.style.display = 'none';
+  loadMoreBtn.addEventListener('click', function () {
+    hiddenImages.forEach(img => {
+      img.classList.remove('hidden');
+    });
+    loadMoreBtn.style.display = 'none';
   });
 });
 
