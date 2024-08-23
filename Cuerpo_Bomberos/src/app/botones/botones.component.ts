@@ -18,10 +18,18 @@ export class BotonesComponent implements OnInit {
   }
 
   cargarInsta(){
-    let elemento = this._document.getElementById('chat');
-    let script = this._renderer2.createElement('script');
-    script.type = 'application/javascript';
-    script.src = 'src/assets/chatbot.js';
-    this._renderer2.appendChild(elemento, script);
+    
+  }
+  abierto = true;
+  abrirchat(){
+    if (this.abierto) {
+      let doc = document.getElementById("doc");
+      doc?.classList.remove("d-none");
+      this.abierto = false;
+    }else{
+      let doc = document.getElementById("doc");
+      doc?.classList.add("d-none");
+      this.abierto = true;
+    }
   }
 }

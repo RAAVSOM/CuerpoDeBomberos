@@ -1,7 +1,6 @@
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
-
 document.addEventListener("DOMContentLoaded", function () {
   (function (d, t) {
     var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -9,12 +8,22 @@ document.addEventListener("DOMContentLoaded", function () {
       window.voiceflow.chat.load({
         verify: { projectID: '666a628c4982158f9953cb1a' },
         url: 'https://general-runtime.voiceflow.com',
-        versionID: 'production'
+        versionID: 'production',
+        render: {
+          mode: 'embedded',
+          target: document.getElementById('chat'),
+        },
+        assistant: {
+          title: "ASISTENTE VIRTUAL DE BOMBEROS",
+          description: "Horario De Atención - Lunes a Viernes 08:00AM - 12:00PM / 02:00PM - 04:00PM",
+          image: "https://drive.google.com/thumbnail?id=1AgUvVmeBzVWGWb-YsRJwFEfOpWX2Fz10&sz=w1000",
+          stylesheet: "/src/assets/bot.css",
+        },
+        autostart: false,
       });
     }
     v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
-
 
   var backToTopBtn = document.getElementById("backToTopBtn");
   scrollFunction();
@@ -34,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+
+  let btn = document.getElementById("prueba");
+  btn.addEventListener("click", colocarBotones);
   const gallery = document.getElementById('gallery');
   const loadMoreBtn = document.getElementById('loadMoreBtn');
   const hiddenImages = gallery.querySelectorAll('img.hidden');
@@ -44,7 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     loadMoreBtn.style.display = 'none';
   });
+
 });
+
 
 //galeria
 const container = document.querySelector('#bootstrap-image-gallery');
@@ -55,9 +69,3 @@ window.lightGallery(container, {
     lgThumbnail
   ],
 });
-
-
-function AbrirChat() {
-  const chat = document.getElementById("btns").style.display = "none";
-  const bot = document.getElementById("chat").style.display = "block";
-}

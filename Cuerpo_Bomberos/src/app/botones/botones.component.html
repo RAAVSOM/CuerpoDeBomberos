@@ -2,29 +2,27 @@
     <li class="w-100 h-100 table-row list-unstyled">
         <ol class="p-0 m-0 row gx-0 justify-content-center align-content-center">
             <button
-                class="btn btn-danger w-auto rounded-circle row gx-0 justify-content-center align-content-center p-4 m-4"
-                type="button" data-bs-toggle="popover" data-bs-placement="left"
-                data-bs-custom-class="custom-popover" data-bs-content="Contactanos" data-bs-trigger="hover"><i
-                    class="fa-brands fa-whatsapp fa-2xl"></i></button>
+                class="btn btn-success w-auto rounded-circle row gx-0 justify-content-center align-content-center p-4 m-4"
+                type="button" data-bs-toggle="popover" data-bs-placement="left" data-bs-custom-class="custom-popover"
+                data-bs-content="Contactanos" data-bs-trigger="hover"><i
+                    class="fa-brands fa-whatsapp fa-shake fa-2xl"></i></button>
         </ol>
         <ol class="p-0 m-0 row gx-0 justify-content-center align-content-center">
-            <div class="voiceflow-chat">
-            </div>
-            <div id="chat"></div>
-        </ol>
-        <ol class="p-0 m-0 row gx-0 justify-content-center align-content-center">
-            <a href="https://sigob.cartagena.gov.co/Tramites/ciudadano/#/inicio"
-                class="btn btn-danger w-auto rounded-circle row gx-0 justify-content-center align-content-center p-4 m-4"
-                type="button" data-bs-toggle="popover" data-bs-placement="left"
-                data-bs-custom-class="custom-popover" data-bs-content="Tramites y Servicios"
-                data-bs-trigger="hover"><i class="fa-solid fa-list fa-xl"></i></a>
+            <button (click)="abrirchat()"
+                class="btn btn-primary w-auto rounded-circle row gx-0 justify-content-center align-content-center p-4 m-4"
+                type="button" data-bs-toggle="popover" data-bs-placement="left" data-bs-custom-class="custom-popover"
+                data-bs-content="Tramites y Servicios" data-bs-trigger="hover"><i class="fa-solid fa-robot fa-beat fa-xl"></i></button>
         </ol>
         <ol class="p-0 m-0 row gx-0 justify-content-center align-content-center">
             <button
                 class="btn btn-danger w-auto rounded-circle row gx-0 justify-content-center align-content-center p-3 m-4"
                 id="backToTopBtn" type="button" data-bs-toggle="popover" data-bs-placement="left"
-                data-bs-custom-class="custom-popoverA" data-bs-content="Regresar Arriba"
-                data-bs-trigger="hover"><i class="fa-solid fa-circle-arrow-up fa-lg"></i></button>
+                data-bs-custom-class="custom-popoverA" data-bs-content="Regresar Arriba" data-bs-trigger="hover"><i
+                    class="fa-solid fa-circle-arrow-up fa-lg"></i></button>
         </ol>
     </li>
+</div>
+<div id="doc" class="fixed-bottom w-25 d-none">
+    <div id="chat" ></div>
+    <div class="position-absolute top-0 end-0" style="width: 15%;"><button (click)="abrirchat()" class="btn btn-danger w-100 h-100"><i class="fa-solid fa-x fa-beat"></i></button></div>
 </div>
