@@ -1,5 +1,5 @@
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+let popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+let popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
 document.addEventListener("DOMContentLoaded", function () {
   (function (d, t) {
@@ -43,12 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-
-  let btn = document.getElementById("prueba");
-  btn.addEventListener("click", colocarBotones);
-  const gallery = document.getElementById('gallery');
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
-  const hiddenImages = gallery.querySelectorAll('img.hidden');
+  let gallery = document.getElementById('gallery');
+  let loadMoreBtn = document.getElementById('loadMoreBtn');
+  let hiddenImages = gallery.querySelectorAll('img.hidden');
 
   loadMoreBtn.addEventListener('click', function () {
     hiddenImages.forEach(img => {
@@ -61,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 //galeria
-const container = document.querySelector('#bootstrap-image-gallery');
+let container = document.querySelector('#bootstrap-image-gallery');
 window.lightGallery(container, {
   selector: '.lg-item',
   plugins: [
@@ -69,3 +66,4 @@ window.lightGallery(container, {
     lgThumbnail
   ],
 });
+

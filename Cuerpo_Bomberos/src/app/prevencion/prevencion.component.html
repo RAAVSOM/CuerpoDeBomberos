@@ -1,283 +1,75 @@
 <app-encabezado></app-encabezado>
-<div class="row gx-o gap-2 row-gap-5 justify-content-center w-100 vh-100 p-5 mb-5">
-    <div class="h-75 bg-efect-l rounded-5 shadow" style="width: 40% !important; background-image: url(https://www.dropbox.com/scl/fi/52xx46etvruo2k63uv089/Bomberos-prevenci-n-de-incendios-en-hogares-02.jpg?rlkey=57tumnxkfmk3orati7kfypvs3&st=pmg7skbe&raw=1); ">
-    </div>
-    <div class="h-75 bg-efect-r rounded-5 shadow" style="width: 40% !important; background-image: url(https://www.dropbox.com/scl/fi/mc2f5tm0vwouj5k4st4yj/Bomberos-prevenci-n-de-incendios-en-hogares-03.jpg?rlkey=5xgbnbzbhoejbo648ueh06jfq&st=w1mkf902&raw=1); ">
-    </div>
-    <div class="h-75 bg-efect-l rounded-5 shadow" style="background-size: 40% 60%; background-position: 16% 10% !important; width: 40% !important; background-image: url(https://www.dropbox.com/scl/fi/hjg8gis4mj0qkbyw9sgms/Bomberos-prevenci-n-de-incendios-en-hogares-04.jpg?rlkey=qhhjmjgta7pk7o9x9x6zrdebh&st=by72ajuc&raw=1); ">
-    </div>
-    <div class="h-75 bg-efect-r rounded-5 shadow" style="width: 40% !important; background-image: url(https://www.dropbox.com/scl/fi/mjuecub4zfwqehxfm9q1y/Bomberos-prevenci-n-de-incendios-en-hogares-05.jpg?rlkey=7m2h95mdw7cg0armub6ist0zy&st=kyc6mkae&raw=1); ">
-    </div>
-</div>
-<!--
-<div class="row gx-0 gap-5 justify-content-center">
-    <div class="p-3">
-        <h1 class="text-center mb-4 text-danger">Prevención de Incendios</h1>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-3 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center px-3 w-100 h-100">
-                        <h3 class="card-title">En el Hogar</h3>
-                        <p class="text-center mb-1">Consejos para mantener tu hogar seguro contra incendios.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/ykkoibx9isftco7hpnwp0/electricidad-hogar.jpg?rlkey=kkueh7ewp9zjnglyicwe09dpo&st=8vmwc7aq&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li>• Contratación profesional</li>
-                                    <li>• Inspecciones regulares</li>
-                                    <li>• Uso de materiales certificados</li>
-                                    <li>• Reporte de anomalías</li>
-                                </ul>
-                            </H3>
-
-                            
-                        </div>
-                    </div>
-                </div>
+<div class="row gx-o gap-2 row-gap-5 justify-content-center w-100 p-5 mb-5">
+    <div #casa id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollCasa()">
+        <div class="row gx-0 justify-content-center align-items-center h-100" style="width: 230vw;">
+            <div class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1ZoqUcLVFgJFbUpechJk2gHB-TAfdZEvm&sz=w1000" alt="">
             </div>
-            <div class="col flex-grow-1 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3 w-100 h-100">
-                        <h3 class="card-title">En el Trabajo</h3>
-                        <p class="text-center mb-1">Medidas de prevención para entornos laborales.
-                        <div class="h-auto w-100">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/8vvlsogv4xidjgkluiol9/sistema.png?rlkey=50u1qhe12syfsinqsgajhdig2&st=3x6kg1bz&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <Li>• Vias de evacuacion </Li>
-                                    <li>• Señalizacion y etiquetado</li>
-                                    <li>• Primeros auxilios </li>
-                                    <li>• Plan de emergencia </li>
-                                </ul>
-
-                            </H3>
-                            
-                        </div>
-                    </div>
-                </div>
+            <div class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=14llLoByp2BXrpFBOPCZy2p2fTeVwiMI8&sz=w1000" alt="">
             </div>
-            <div class="col-2 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3 w-100 h-100">
-                        <h3 class="card-title">En Espacios Públicos</h3>
-                        <p class="text-center">Cómo actuar de manera segura en lugares concurridos.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/3wkxmiucygbz20y2mer5g/Captura-de-pantalla-2024-07-30-114606.png?rlkey=8sqyb459bnqe67ds3sp1q413c&st=nne3uqh3&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES </h1>
-                            <H3>
-                                <ul>
-                                    <Li> • Mantener la calma y controlar la situacion </Li>
-                                    <li> • Sigue las intrucciones de las autoridades</li>
-                                    <li> • Busca rutas de evacuacion segura </li>
-                                    <li> • Mantener la organizacion y disciplina </li>
-                                </ul>
-
-                            </H3>
-                        </div>
-                    </div>
-                </div>
+            <div class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1i5A_Z126V0_CG8vNaCSY1D1TjJII9YEG&sz=w1000" alt="">
+            </div>
+            <div class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12ZAJ-u224tLl5XKy2BjVgrznfTHVYWQa&sz=w1000" alt="">
+            </div>
+            <div class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1adcpgK4QcIZurN_wm6nPHTlSYzVv6Ko1&sz=w1000" alt="">
             </div>
         </div>
     </div>
-    <div class="p-3">
-        <h1 class="text-center mb-4 text-danger">Seguridad Contra Incendios</h1>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-3 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card-title">Equipos de Seguridad</h3>
-                        <p class="card-text">Información sobre extintores, detectores de humo y más.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/glx83mrn5cmr2z6wefjk5/extintores.png?rlkey=xkwr6onqrcgeoa63h0dirlahy&st=i6zdu8lh&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <h3>
-                                <ul>
-                                    <li> • Selecciona el extintor</li>
-                                    <li>• Recuerda la tecnica PASS:</li>
-                                    <li> P (Pull - Tirar) </li>
-                                    <li>A (Aim - Apuntar)</li>
-                                    <li>S (Squeeze - Apretar)</li>
-                                    <li>S (Sweep - Barrer)</li>
-                                    <li> • Tira del Pasador</li>
-                                    <li> • Aprieta la Manija</li>
-                                    <LI> • Mantén una Distancia Segura:
-                                        Mantén una distancia de unos 2-3 metros del fuego al usar el extintor
-                                    </LI>
-                                    <li> • Después de Apagar el Fuego</li>
-                                </ul>
-                            </h3>
 
-                            
-                        </div>
-                    </div>
-                </div>
+    <div #afueras id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollFuera()">
+        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+            <div #afuera1 id="1" class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1VYKuE_WK1EpDhnBGKFroYqm5fw6_m6aI&sz=w1000" alt="">
             </div>
-            <div class="col flex-grow-1 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card0-title">Planes de Evacuación</h3>
-                        <p class="card-text">Cómo crear y practicar un plan de evacuación efectivo.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/8vvlsogv4xidjgkluiol9/sistema.png?rlkey=50u1qhe12syfsinqsgajhdig2&st=3x6kg1bz&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES </h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li> • Identificar las salidas de emergencia </li>
-                                    <li>• Identificar los puntos de encuentro </li>
-                                    <li> • Asegurar que las alarmas funcionen </li>
-                                    <li> • Simulacros de evacuacion </li>
-                                </ul>
-                            </H3>
-                            
-                        </div>
-                    </div>
-                </div>
+            <div #afuera2 id="2" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_4M5JRrqHKcEM9q1UUhs8NHwSQ9k9QPF&sz=w1000" alt="">
             </div>
-            <div class="col-3 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card-title">Primeros Auxilios</h3>
-                        <p class="card-text">Técnicas básicas de primeros auxilios en caso de emergencia.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/wj5znkcwila04i8m6ia1x/primeros-auxilios.png?rlkey=aypzusjlvux4jymel0th64ohb&st=pmqt46y7&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li> • Contacto con servicios de emergencia </li>
-                                    <li>• Resucitación Cardiopulmonar (RCP) </li>
-                                    <li> • Mantén la calma </li>
-                                    <li> • Busca ayuda profesional </li>
-                                </ul>
-                            </H3>
-
-
-                            
-                        </div>
-                    </div>
-                </div>
+            <div #afuera3 id="3" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rtBkIhrBgn4V6jHP82NFiLE6ihaCy3lc&sz=w1000" alt="">
+            </div>
+            <div #afuera4 id="4" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12963QrRpj2q6qSttrLxCJsmLLJv06ruq&sz=w1000" alt="">
+            </div>
+            <div #afuera5 id="5" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1vtfq3hxt_bZmYwBy6Ha_LheeBPS3rS-U&sz=w1000" alt="">
             </div>
         </div>
     </div>
-    <div class="p-3">
-        <h1 class="text-center mb-4 text-danger">Prevenciones contra incendios</h1>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-4 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card-title">Componentes de gabinete</h3>
-                        <p class="card-text">Información sobre extintores, detectores de humo y más.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/4l6tsv2ztdkd07obehkuc/componentes_gabi.png?rlkey=7gsyhjsd2ltqq56xfko2o0f8e&st=mpvtz28r&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li> • Coloca el gabinete en un lugar fácil</li>
-                                    <li> • Marca claramente la ubicación del gabinete con señales </li>
-                                    <li> • Mantén un registro de las inspecciones </li>
-                                    <LI> • Cumplimiento de normativas </LI>
 
-                                </ul>
-                            </H3>
-                            
-                        </div>
-                    </div>
-                </div>
+    <div #arbol id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollArbol()">
+        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+            <div #arbol1 id="1" class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1hBF8zqZ_Zl4WYdbLobVxxQpCmkcXVln8&sz=w1000" alt="">
             </div>
-            <div class="col-4 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card-title">Señalizacion</h3>
-                        <p class="card-text">Cómo crear y practicar un plan de evacuación efectivo.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/hsytjztux0kn9rbqkf51s/se-alizacion-2.jpg?rlkey=h6lbbdbq599xsl1izpf710stc&st=t4dysf5d&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li> • Ubicación y Visibilidad</li>
-                                    <li> • Claridad y Comprensión </li>
-                                    <li> • Normativas y Cumplimiento </li>
-                                    <LI> • Sistemas de guía de evacuación </LI>
-
-                                </ul>
-                            </H3>
-                            
-                        </div>
-                    </div>
-                </div>
+            <div #arbol2 id="2" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1Ja1PwmA8Qpalb6lYbRKUE4X7zDMlJevx&sz=w1000" alt="">
+            </div>
+            <div #arbol3 id="3" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1xKS6NJ0xrl32q0CxOYXF7ez1zVrCSqN3&sz=w1000" alt="">
+            </div>
+            <div #arbol4 id="4" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_1VAwJvqZurIBU1eiGpuUbz5ILoStCFW&sz=w1000" alt="">
             </div>
         </div>
-        <div class="row justify-content-center align-items-center mt-5 mb-5">
-            <div class="col-3 flex-grow-0 h-100">
-                <div class="card card-h w-100 h-100 position-relative p-0 rounded-3">
-                    <div class="card-body text-center p-3">
-                        <h3 class="card-title">Primeros Auxilios</h3>
-                        <p class="text-center">Elementos basico que debe contener un botiquin de emergencia.
-                        <div class="w-100 h-auto">
-                            <img class="w-75 rounded-3" src="https://www.dropbox.com/scl/fi/kex3bbfqrwhxqzuurpg4m/Captura-de-pantalla-2024-07-30-114814.png?rlkey=26dw7z0w9pg9demfen9k6sqqs&st=nlnicbd5&raw=1" alt="">
-                        </div>
-                    </div>
-                    <div class="info shadow-r w-100 h-100 p-5 position-absolute rounded-3">
-                        <div class="bg-ilumi p-3 rounded-3">
-                            <h1>PRECAUCIONES</h1>
-                            
-                            <H3>
-                                <ul>
-                                    <li> • Ubicación y Accesibilidad </li>
-                                    <li> • Contenido Adecuado </li>
-                                    <li> • Reemplazo de artículos caducados </li>
-                                    <LI> • Instrucciones claras </LI>
-                                    <LI> • Medicamentos específicos </LI>
+    </div>
 
-                                </ul>
-                            </H3>
-                            
-                        </div>
-                    </div>
-                </div>
+    <div #llubia id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollLlubia()">
+        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+            <div #llubia1 id="1" class="col h-100 w-100">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=16gaFuSlTW5SVD8__VSg3V3X1vwbYmWBW&sz=w1000" alt="">
+            </div>
+            <div #llubia2 id="2" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1dbkj79We742OjJXTyXfTEI4Vyrfq9cbw&sz=w1000" alt="">
+            </div>
+            <div #llubia3 id="3" class="col h-100 w-100 d-none">
+                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rYBtPWFR08QKmddSsv-DOyoeyYeIWe8q&sz=w1000" alt="">
             </div>
         </div>
     </div>
 </div>
--->
+
 <app-footer></app-footer>

@@ -1,16 +1,39 @@
 :root {
-    --bs-primary: #d32f2f;
-    --bs-secondary: #ffa000;
-  }
-  body {
-    padding-top: 56px;
-  }
-  .navbar {
-    background-color: var(--bs-primary);
-  }
-  
-  .card-body{
-    flex-basis: 0 !important;
-    height: 100% !important;
-  }
-  
+  --bs-primary: #d32f2f;
+  --bs-secondary: #ffa000;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.navbar {
+  background-color: var(--bs-primary);
+}
+
+.card-body {
+  flex-basis: 0 !important;
+  height: 100% !important;
+}
+
+.bg-efect-l {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0%;
+  height: 65vh;
+}
+
+.bg-efect-r {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 84%;
+  background-size: 40% 90%;
+  height: 65vh;
+}
+
+.casa {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}

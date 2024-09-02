@@ -353,20 +353,6 @@ input:not(:placeholder-shown)~.reset {
   }
 }
 
-.bg-efect-l {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 16%;
-  background-size: 40% 90%;
-  height: 65vh;
-}
-.bg-efect-r {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 84%;
-  background-size: 40% 90%;
-  height: 65vh;
-}
 
 .shadow-r {
   border: 2px solid #fafafa10;
