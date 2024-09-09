@@ -353,6 +353,10 @@ input:not(:placeholder-shown)~.reset {
   }
 }
 
+@media (max-device-width: 650px) {
+  
+}
+
 
 .shadow-r {
   border: 2px solid #fafafa10;

@@ -1,72 +1,110 @@
 <app-encabezado></app-encabezado>
 <div class="row gx-o gap-2 row-gap-5 justify-content-center w-100 p-5 mb-5">
-    <div #casa id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollCasa()">
-        <div class="row gx-0 justify-content-center align-items-center h-100" style="width: 230vw;">
-            <div class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1ZoqUcLVFgJFbUpechJk2gHB-TAfdZEvm&sz=w1000" alt="">
+    <div class="row justify-content-center align-items-center gap-5">
+        <div class="col row justify-content-center align-items-center gx-0 gap-4" style="width: 30%;">
+            <div class="w-100 p-4 shadow rounded-5 bg-text-efect">
+                <h1 class="text-center text-light">PREVENCION EN EL HOGAR</h1>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
             </div>
-            <div class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=14llLoByp2BXrpFBOPCZy2p2fTeVwiMI8&sz=w1000" alt="">
-            </div>
-            <div class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1i5A_Z126V0_CG8vNaCSY1D1TjJII9YEG&sz=w1000" alt="">
-            </div>
-            <div class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12ZAJ-u224tLl5XKy2BjVgrznfTHVYWQa&sz=w1000" alt="">
-            </div>
-            <div class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1adcpgK4QcIZurN_wm6nPHTlSYzVv6Ko1&sz=w1000" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div #afueras id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollFuera()">
-        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
-            <div #afuera1 id="1" class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1VYKuE_WK1EpDhnBGKFroYqm5fw6_m6aI&sz=w1000" alt="">
-            </div>
-            <div #afuera2 id="2" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_4M5JRrqHKcEM9q1UUhs8NHwSQ9k9QPF&sz=w1000" alt="">
-            </div>
-            <div #afuera3 id="3" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rtBkIhrBgn4V6jHP82NFiLE6ihaCy3lc&sz=w1000" alt="">
-            </div>
-            <div #afuera4 id="4" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12963QrRpj2q6qSttrLxCJsmLLJv06ruq&sz=w1000" alt="">
-            </div>
-            <div #afuera5 id="5" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1vtfq3hxt_bZmYwBy6Ha_LheeBPS3rS-U&sz=w1000" alt="">
+            <div #casa id="casa" class="rounded-5 shadow overflow-auto p-0 casa w-100" style="cursor: pointer;" (click)="iniciarScrollCasa()">
+                <div class="row gx-0 justify-content-center align-items-center" style="height: 70%;width: 230vw;">
+                    <div class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1ZoqUcLVFgJFbUpechJk2gHB-TAfdZEvm&sz=w1000" alt="">
+                    </div>
+                    <div class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=14llLoByp2BXrpFBOPCZy2p2fTeVwiMI8&sz=w1000" alt="">
+                    </div>
+                    <div class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1i5A_Z126V0_CG8vNaCSY1D1TjJII9YEG&sz=w1000" alt="">
+                    </div>
+                    <div class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12ZAJ-u224tLl5XKy2BjVgrznfTHVYWQa&sz=w1000" alt="">
+                    </div>
+                    <div class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1adcpgK4QcIZurN_wm6nPHTlSYzVv6Ko1&sz=w1000" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div #arbol id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollArbol()">
-        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
-            <div #arbol1 id="1" class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1hBF8zqZ_Zl4WYdbLobVxxQpCmkcXVln8&sz=w1000" alt="">
+        <div class="col row justify-content-center align-items-center gx-0 gap-4" style="width: 30%;">
+            <div class="w-100 p-4 shadow rounded-5 bg-text-efect">
+                <h1 class="text-center text-light">PREVENCION DEL VEHICULO</h1>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
             </div>
-            <div #arbol2 id="2" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1Ja1PwmA8Qpalb6lYbRKUE4X7zDMlJevx&sz=w1000" alt="">
-            </div>
-            <div #arbol3 id="3" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1xKS6NJ0xrl32q0CxOYXF7ez1zVrCSqN3&sz=w1000" alt="">
-            </div>
-            <div #arbol4 id="4" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_1VAwJvqZurIBU1eiGpuUbz5ILoStCFW&sz=w1000" alt="">
+            <div #afueras id="casa" class="rounded-5 shadow overflow-auto p-0 casa w-100" style="height: 95%; cursor: pointer;" (click)="iniciarScrollFuera()">
+                <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+                    <div #afuera1 id="1" class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1VYKuE_WK1EpDhnBGKFroYqm5fw6_m6aI&sz=w1000" alt="">
+                    </div>
+                    <div #afuera2 id="2" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_4M5JRrqHKcEM9q1UUhs8NHwSQ9k9QPF&sz=w1000" alt="">
+                    </div>
+                    <div #afuera3 id="3" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rtBkIhrBgn4V6jHP82NFiLE6ihaCy3lc&sz=w1000" alt="">
+                    </div>
+                    <div #afuera4 id="4" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=12963QrRpj2q6qSttrLxCJsmLLJv06ruq&sz=w1000" alt="">
+                    </div>
+                    <div #afuera5 id="5" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1vtfq3hxt_bZmYwBy6Ha_LheeBPS3rS-U&sz=w1000" alt="">
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 
-    <div #llubia id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; width: 55%; cursor: pointer;" (click)="iniciarScrollLlubia()">
-        <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
-            <div #llubia1 id="1" class="col h-100 w-100">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=16gaFuSlTW5SVD8__VSg3V3X1vwbYmWBW&sz=w1000" alt="">
+    <div class="row justify-content-center align-items-center gap-5">
+    
+        <div class="col row justify-content-center align-items-center gx-0 gap-4" style="width: 30%;">
+            <div class="w-100 p-4 shadow rounded-5 bg-text-efect">
+                <h1 class="text-center text-light">PREVENCION ANTE ARBOLES CAIDOS</h1>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
             </div>
-            <div #llubia2 id="2" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1dbkj79We742OjJXTyXfTEI4Vyrfq9cbw&sz=w1000" alt="">
+            <div #arbol id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; cursor: pointer;" (click)="iniciarScrollArbol()">
+                <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+                    <div #arbol1 id="1" class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1hBF8zqZ_Zl4WYdbLobVxxQpCmkcXVln8&sz=w1000" alt="">
+                    </div>
+                    <div #arbol2 id="2" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1Ja1PwmA8Qpalb6lYbRKUE4X7zDMlJevx&sz=w1000" alt="">
+                    </div>
+                    <div #arbol3 id="3" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1xKS6NJ0xrl32q0CxOYXF7ez1zVrCSqN3&sz=w1000" alt="">
+                    </div>
+                    <div #arbol4 id="4" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1_1VAwJvqZurIBU1eiGpuUbz5ILoStCFW&sz=w1000" alt="">
+                    </div>
+                </div>
             </div>
-            <div #llubia3 id="3" class="col h-100 w-100 d-none">
-                <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rYBtPWFR08QKmddSsv-DOyoeyYeIWe8q&sz=w1000" alt="">
+        </div>
+    
+        <div class="col row justify-content-center align-items-center gx-0 gap-4" style="width: 30%;">
+            <div class="w-100 p-4 shadow rounded-5 bg-text-efect">
+                <h1 class="text-center text-light">PREVENCION EN LA LLUVIA</h1>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+            <div #llubia id="casa" class="rounded-5 shadow overflow-auto p-0 casa" style="height: 95%; cursor: pointer;" (click)="iniciarScrollLlubia()">
+                <div class="row gx-0 justify-content-center align-items-center h-100 w-100">
+                    <div #llubia1 id="1" class="col h-100 w-100">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=16gaFuSlTW5SVD8__VSg3V3X1vwbYmWBW&sz=w1000" alt="">
+                    </div>
+                    <div #llubia2 id="2" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1dbkj79We742OjJXTyXfTEI4Vyrfq9cbw&sz=w1000" alt="">
+                    </div>
+                    <div #llubia3 id="3" class="col h-100 w-100 d-none">
+                        <img class="h-100 w-100 img-fluid" src="https://drive.google.com/thumbnail?id=1rYBtPWFR08QKmddSsv-DOyoeyYeIWe8q&sz=w1000" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
