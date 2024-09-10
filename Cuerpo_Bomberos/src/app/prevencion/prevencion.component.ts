@@ -18,59 +18,22 @@ export class PrevencionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  recorridoCasa = 0;
+  @ViewChild('casa1', { static: true }) casa1!: ElementRef;
+  @ViewChild('casa2', { static: true }) casa2!: ElementRef;
+  @ViewChild('casa3', { static: true }) casa3!: ElementRef;
+  @ViewChild('casa4', { static: true }) casa4!: ElementRef;
+  @ViewChild('casa5', { static: true }) casa5!: ElementRef;
   iniciarScrollCasa() {
-    let tiempoInicio = 0;
-    let inicio = setInterval(() => {
-      if (tiempoInicio >= 100) {
-        clearInterval(inicio);
-        this.moverScrollCasa();
-      } else {
-        tiempoInicio++;
-      }
-    });
-  }
-
-  moverScrollCasa() {
-    let scrollContainer = this.casaElement.nativeElement;
-    if (scrollContainer) {
-      if (scrollContainer.scrollLeft == 0) {
-        let duration = 10000;
-        let distance = scrollContainer.scrollWidth - scrollContainer.clientWidth + 200;
-        let stepDuration = 3;
-        let steps = duration / stepDuration;
-        let scrollStep = distance / steps;
-
-        let currentStep = 0;
-
-        let scrollInterval = setInterval(() => {
-          if (currentStep >= steps) {
-            clearInterval(scrollInterval);
-            currentStep = 0;
-            stepDuration = 0;
-            this.finalizarScrollCasa(scrollContainer);
-          } else {
-            scrollContainer.scrollLeft += scrollStep;
-            currentStep++;
-          }
-        }, stepDuration);
-      }
+    let lista = [this.casa1, this.casa2, this.casa3, this.casa4, this.casa5]; 
+    lista[this.recorridoCasa].nativeElement.classList.add("d-none");
+    if(this.recorridoCasa >= lista.length - 1){
+      this.recorridoCasa = 0;
+    }else{
+      this.recorridoCasa ++;
     }
+    lista[this.recorridoCasa].nativeElement.classList.remove("d-none");
   }
-
-  finalizarScrollCasa(scrollContainer: any) {
-    if (scrollContainer) {
-      let tiempoInicio = 0;
-      let inicio = setInterval(() => {
-        if (tiempoInicio >= 100) {
-          clearInterval(inicio);
-          scrollContainer.scrollLeft = 0;
-        } else {
-          tiempoInicio++;
-        }
-      });
-    }
-  }
-
 
   recorridoAfuera = 0;
   @ViewChild('afuera1', { static: true }) afuera1!: ElementRef;

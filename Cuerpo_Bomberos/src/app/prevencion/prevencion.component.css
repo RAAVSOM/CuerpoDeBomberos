@@ -107,3 +107,9 @@ body {
       transform: translateX(1);
   }
 }
+
+@media (max-device-width: 650px) {
+  .fs-2{
+    font-size: small !important;
+  }
+}

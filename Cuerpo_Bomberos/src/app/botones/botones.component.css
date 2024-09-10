@@ -5,3 +5,9 @@
 .end-0{
     right: 1% !important;
 }
+
+@media (min-device-width: 650px) {
+    .w-25{
+      width: 12%!important;
+    }
+  }

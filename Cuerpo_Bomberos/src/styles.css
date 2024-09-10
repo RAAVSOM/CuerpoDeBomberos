@@ -354,7 +354,9 @@ input:not(:placeholder-shown)~.reset {
 }
 
 @media (max-device-width: 650px) {
-  
+  .fs-2{
+    font-size: small !important;
+  }
 }
 
 
