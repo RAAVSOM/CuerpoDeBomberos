@@ -1,3 +1,19 @@
+
+.sub{
+  text-decoration: none;
+  color: black;
+}
+.event-date {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  position: absolute;
+  top: 171px;
+  border-radius:5px;
+}
+
+
 /*
 ..bd-placeholder-img {
     font-size: 1.125rem;
