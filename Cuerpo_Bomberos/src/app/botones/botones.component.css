@@ -6,8 +6,18 @@
     right: 1% !important;
 }
 
+.hei{
+  height: 80vh;
+}
+
 @media (min-device-width: 650px) {
     .w-25{
       width: 12%!important;
+    }
+  }
+
+  @media (max-device-width: 650px) {
+    .hei{
+      height: 98vh !important;
     }
   }

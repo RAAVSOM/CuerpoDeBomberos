@@ -22,7 +22,11 @@
         </ol>
     </li>
 </div>
-<div id="doc" class="fixed-bottom w-25 d-none">
-    <div id="chat" style="height: 80vh;"></div>
-    <div class="position-absolute top-0 end-0" style="width: 15%;"><button (click)="abrirchat()" class="btn btn-danger w-100 h-100"><i class="fa-solid fa-x fa-beat"></i></button></div>
+<div id="doc" class="fixed-bottom row gx-0 justify-content-end d-none overflow-hidden">
+    <div class="col col-md-4">
+        <div id="chat" class="hei"></div>
+        <div class="position-absolute top-0 end-0 row gx-0 justify-content-end">
+            <button (click)="abrirchat()" class="btn btn-danger col h-75"><i class="fa-solid fa-x fa-beat"></i></button>
+        </div>
+    </div>
 </div>
